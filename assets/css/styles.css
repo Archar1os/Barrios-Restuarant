@@ -7,6 +7,8 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	overflow-x: hidden;
+	width: 100%;
 }
 /* ================================================ Navigation Section ================================================ */
 header {
@@ -188,7 +190,6 @@ strong {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: justify;
 }
 .video-container {
 	position: relative;
@@ -208,9 +209,19 @@ strong {
 }
 .text-content {
 	position: relative;
-	width: 400px;
+	font-size: 30px;
+	width: 500px;
 	z-index: 2;
-	padding: 40px;
+	padding: 50px;
+}
+.text-content h1 {
+	font-size: 50px;
+}
+.text_align_right {
+	text-align: right;
+}
+.text_align_left {
+	text-align: left;
 }
 .white_txt {
 	color: white;
