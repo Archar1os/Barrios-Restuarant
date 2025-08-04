@@ -1,0 +1,243 @@
+* {
+	list-style: none;
+	text-decoration: none;
+}
+body {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* ================================================ Navigation Section ================================================ */
+header {
+	background: #f8f8f8;
+	display: block;
+}
+.navbar {
+	background: #333;
+	color: #fff;
+	padding: 10px 0;
+	margin: 0;
+	display: flex;
+	width: 100%;
+	height: 100px;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-links {
+	list-style: none;
+	margin-right: 50px;
+}
+
+.nav-links li {
+	display: inline;
+	margin: 0;
+}
+.nav-links a {
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	padding: 47px 15px;
+	width: 100px;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+	font-size: 20px;
+}
+.nav-links a:hover {
+	background-color: rgb(31, 31, 31);
+	transition: all 0.3s ease-in-out;
+	color: red;
+}
+/* ================================================ Logo Section ================================================ */
+.logo {
+	display: flex;
+	justify-items: center;
+	align-self: center;
+}
+.logo-link {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-decoration: none;
+	color: #ffffff;
+}
+.logo h1 {
+	font-size: 24px;
+	text-align: center;
+	align-self: center;
+	margin: 0;
+}
+.logo img {
+	width: 75px;
+	margin: 20px;
+}
+strong {
+	color: #eb1b00;
+	font-weight: bold;
+}
+/* ================================================ Hero Section ================================================ */
+.hero {
+	padding: 25vh;
+	background: url("../img/Hero_img.jpg") no-repeat center center/cover;
+	text-align: center;
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+.hero h1 {
+	color: #ffffff;
+	font-size: 48px;
+	margin: 0;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+.hero p {
+	color: #ffffff;
+	font-size: 24px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+/* ================================================ Specialties Section ================================================ */
+.specialties {
+	background: #333; /* Same as navbar */
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 30vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0 0 100px 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.specialties h2 {
+	font-size: 50px;
+	color: #eb1b00;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.specialties-list {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	flex-wrap: wrap;
+}
+
+.specialty-item {
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+	padding: 30px 20px;
+	width: 280px;
+	transition: transform 0.2s;
+}
+
+.specialty-item:hover {
+	transform: translateY(-8px) scale(1.03);
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.specialty-item img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10%;
+	margin-bottom: 18px;
+}
+
+.specialty-item h3 {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 12px;
+}
+
+.specialty-item p {
+	font-size: 16px;
+	color: #666;
+}
+
+/* ================================================ Video Section ================================================ */
+
+.black_back {
+	background-color: #333;
+}
+.white_back {
+	background-color: white;
+}
+
+/* .black_bord {
+	border: #333 5px solid;
+	background-color: white;
+} */
+/* .white_bord {
+	border: white 5px solid;
+	background-color: #333;
+} */
+
+.video {
+	height: 80vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+}
+.video-container {
+	position: relative;
+	width: 400px;
+	height: 600px;
+	overflow: hidden;
+	border-radius: 25px;
+}
+
+.background_video {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.text-content {
+	position: relative;
+	width: 400px;
+	z-index: 2;
+	padding: 40px;
+}
+.white_txt {
+	color: white;
+}
+
+.black_txt {
+	color: black;
+}
+
+/* ================================================ Footer Section ================================================ */
+footer {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 40px 0 20px 0;
+	width: 100vw;
+	box-sizing: border-box;
+}
+
+.social-link {
+	color: #eb1b00;
+	text-decoration: none;
+	margin: 0 12px;
+	font-size: 18px;
+	transition: color 0.2s;
+}
+
+.social-link:hover {
+	color: #fff;
+}
